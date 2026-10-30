@@ -1,4 +1,3 @@
-
 # Transfer CKB
 
 > A single Cell requires at least 61 bytes of storage, equivalent to [61 CKBytes (CKB)](https://docs.nervos.org/docs/tech-explanation/capacity#capacity-mini). Allocating 62 CKB is recommended to cover additional fees in practice.
@@ -13,10 +12,10 @@
 
 ### 2. Transaction successful and Transaction Hash on Terminal
 
-![img](2_Tranfer_Success.png)![](./2_Tranfer_Success)
+![img](2_Tranfer_Success.png)
 
 ---
 
 ### 3. Verify the transaction on CKB Explorer
 
-![img](3_Transfer_by_cly.png)![](
+![img](3_Transfer_by_cly.png)
