@@ -1,0 +1,318 @@
+.main-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: #0f1117;
+  color: #f3f4f6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 680px;
+  background-color: #181b22;
+  border: 1px solid #2d333b;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-header {
+  border-bottom: 1px solid #2d333b;
+  padding-bottom: 1rem;
+}
+
+.header-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header-title-row h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: #8b949e;
+  line-height: 1.4;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.network-badge {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.extensions-detected-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #0d1117;
+  border-radius: 10px;
+  border: 1px solid #21262d;
+  font-size: 0.75rem;
+}
+
+.extensions-title {
+  color: #8b949e;
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.pill {
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.pill-active {
+  background-color: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.pill-muted {
+  background-color: rgba(110, 118, 129, 0.1);
+  color: #8b949e;
+  border: 1px solid rgba(110, 118, 129, 0.2);
+}
+
+.connect-prompt-box {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  background-color: #13161c;
+  border-radius: 12px;
+  border: 1px dashed #30363d;
+}
+
+.prompt-text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #8b949e;
+  max-width: 420px;
+}
+
+.connected-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.connected-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background-color: #13161c;
+  border-radius: 10px;
+  border: 1px solid #21262d;
+}
+
+.wallet-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.wallet-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.wallet-name {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.signer-type {
+  display: block;
+  font-size: 0.75rem;
+  color: #8b949e;
+}
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.75rem 1rem;
+  background-color: #13161c;
+  border-radius: 10px;
+  border: 1px solid #21262d;
+}
+
+.info-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #8b949e;
+  font-weight: 500;
+}
+
+.address-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.address-value {
+  font-size: 0.85rem;
+  color: #e6edf3;
+  word-break: break-all;
+}
+
+.balance-value {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #4ade80;
+}
+
+.signing-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: #13161c;
+  border-radius: 10px;
+  border: 1px solid #21262d;
+}
+
+.sign-input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-text {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #e6edf3;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.input-text:focus {
+  border-color: #38bdf8;
+}
+
+.signature-result {
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  background-color: #0d1117;
+  border-radius: 8px;
+  border: 1px solid #21262d;
+  font-size: 0.75rem;
+}
+
+.signature-label {
+  color: #8b949e;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.signature-text {
+  margin: 0;
+  color: #38bdf8;
+  word-break: break-all;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #238636;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #2ea043;
+}
+
+.btn-secondary {
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: #30363d;
+  color: #ffffff;
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-danger {
+  background-color: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+  border: 1px solid rgba(248, 81, 73, 0.3);
+}
+
+.btn-danger:hover {
+  background-color: rgba(248, 81, 73, 0.25);
+}
+
+.btn-copy {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-copy:hover {
+  background-color: #30363d;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+}
