@@ -3,7 +3,7 @@
 **Reporting period:** October 2026
 **Publication date:** October 2026
 **Participant:** Nguyen Hoang Anh
-**Repository:** `[https://github.com/hoanganh15092006/CKBuilders/edit/main/Week01](https://github.com/hoanganh15092006/CKBuilders/tree/main/Week01)`
+**Repository:** `https://github.com/hoanganh15092006/CKBuilders/tree/main/Week01`
 
 ---
 
