@@ -1,0 +1,288 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #121826;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.badge {
+  background-color: #0c4a6e;
+  color: #38bdf8;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid #0284c7;
+}
+
+.wallet-section {
+  background-color: #172033;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #1f2937;
+  margin-bottom: 20px;
+}
+
+.wallet-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #10b981;
+  border-radius: 50%;
+}
+
+.address-display {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  word-break: break-all;
+}
+
+.address-label {
+  color: #6b7280;
+}
+
+.balance-display {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.balance-display strong {
+  color: #10b981;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 12px;
+}
+
+.tab {
+  background: transparent;
+  border: 1px solid #374151;
+  color: #9ca3af;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  border-color: #4b5563;
+  color: #f3f4f6;
+}
+
+.tab.active {
+  background-color: #00d26a20;
+  border-color: #00d26a;
+  color: #00d26a;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #38bdf8;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.btn-link:hover {
+  color: #7dd3fc;
+}
+
+label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #9ca3af;
+  margin-bottom: 0;
+  letter-spacing: 0.05em;
+}
+
+input {
+  width: 100%;
+  background-color: #0b0f19;
+  border: 1px solid #374151;
+  border-radius: 6px;
+  padding: 12px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+}
+
+input:focus {
+  border-color: #00d26a;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: #00d26a;
+  color: #000000;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #05f07b;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+}
+
+.btn-disconnect {
+  background-color: #ef444420;
+  color: #f87171;
+  border: 1px solid #ef444440;
+}
+
+.btn-disconnect:hover {
+  background-color: #ef444430;
+}
+
+.alert {
+  padding: 14px;
+  border-radius: 6px;
+  margin-top: 16px;
+  font-size: 0.875rem;
+}
+
+.alert-error {
+  background-color: #450a0a;
+  border: 1px solid #b91c1c;
+  color: #fca5a5;
+}
+
+.alert-success {
+  background-color: #064e3b30;
+  border: 1px solid #059669;
+  color: #34d399;
+}
+
+.hash-display {
+  margin: 8px 0;
+  word-break: break-all;
+  font-family: monospace;
+  background-color: #0b0f19;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.explorer-link {
+  color: #38bdf8;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+}
+
+.metadata-card {
+  margin-top: 16px;
+  background-color: #172033;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.metadata-card h3 {
+  font-size: 1rem;
+  color: #f3f4f6;
+  margin-bottom: 12px;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #1f2937;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.meta-row:last-child {
+  border-bottom: none;
+}
+
+.meta-row strong {
+  color: #ffffff;
+}
+
+.meta-row code {
+  color: #38bdf8;
+}
+
