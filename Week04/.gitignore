@@ -1,0 +1,5 @@
+node2/ckb/
+node2/fiber/
+*.log
+.DS_Store
+.env
