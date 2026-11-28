@@ -1,0 +1,8 @@
+marketplace/node_modules/
+marketplace/.next/
+marketplace/data/
+marketplace/.env
+marketplace/.env.*
+!marketplace/.env.example
+*.log
+.DS_Store
